@@ -1,0 +1,42 @@
+/* style.css */
+
+body {
+    margin-left: 60px;
+}
+
+h1 {
+    color: #1a1c1b;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+div {
+    margin-left: 10px;
+}
+
+li a {
+    font-size: 18px;
+}
+
+a {
+    color: darkolivegreen;
+}
+
+#source {
+    margin-top: -10px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+
+    font-size: 16px;
+    font-style: italic;
+}
+
+.content {
+    width: 300px;
+}
+
+.food-img {
+    width: 300px;
+    height: auto;
+}
