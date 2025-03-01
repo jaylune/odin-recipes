@@ -19,13 +19,17 @@ li a {
     font-size: 18px;
 }
 
+ol li {
+    margin-bottom: 5px;
+}
+
 a {
     color: darkolivegreen;
 }
 
 #source {
     margin-top: -10px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     margin-left: 30px;
 
     font-size: 16px;
@@ -34,9 +38,22 @@ a {
 
 .content {
     width: 300px;
+    max-height: 600px;
+    overflow-y: auto;
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
 
 .food-img {
     width: 300px;
     height: auto;
+}
+
+.recipe-box {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#content-header {
+    margin-top: 0px;
 }
